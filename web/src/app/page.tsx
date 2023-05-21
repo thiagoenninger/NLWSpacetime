@@ -1,7 +1,16 @@
 export default function Home() {
   return (
-    <div className="h-screen bg-zinc-950 p-6 text-zinc-50">
-      <h1 className="text-4xl font-bold">Sua cápsula do tempo</h1>
-    </div>
+    <main className="min-h-screen grid-cols-2">
+      {/* Left */}
+      <div></div>
+
+      {/* Right */}
+      <div>
+        <p>
+          Você ainda não registrou nenhuma lembrança, comece a{''}
+          <a href=""> criar agora</a>!
+        </p>
+      </div>
+    </main>
   )
 }
